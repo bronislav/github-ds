@@ -5,7 +5,10 @@ rvm:
   - 2.4.0
 before_script: gem install bundler -v 1.14.6
 script: bundle exec rake
-env:
-  - RAILS_VERSION=5.1.0
-  - RAILS_VERSION=5.0.0
-  - RAILS_VERSION=4.2.5
+gemfile:
+  - gemfiles/mysql_rails_4_2.gemfile
+  - gemfiles/mysql_rails_5_0.gemfile
+  - gemfiles/mysql_rails_5_1.gemfile
+  - gemfiles/pg_rails_4_2.gemfile
+  - gemfiles/pg_rails_5_0.gemfile
+  - gemfiles/pg_rails_5_1.gemfile

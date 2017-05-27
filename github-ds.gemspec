@@ -32,11 +32,11 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "activerecord", ">= 3.2", "< 6.0"
 
+  spec.add_development_dependency "appraisal"
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest", "~> 5.0"
   spec.add_development_dependency "timecop", "~> 0.8.1"
   spec.add_development_dependency "activesupport"
-  spec.add_development_dependency "mysql2"
   spec.add_development_dependency "mocha", "~> 1.2.1"
 end
